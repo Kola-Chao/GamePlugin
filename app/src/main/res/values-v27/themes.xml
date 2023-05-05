@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Status bar -->
-    <color name="black30">#4D000000</color>
+
+    <style name="PlatformAdjusted.Theme.Nia" parent="NightAdjusted.Theme.Nia">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
 </resources>
